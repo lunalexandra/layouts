@@ -1,0 +1,66 @@
+.icon-switch {
+  text-align: right;
+  margin: 10px;
+}
+
+.cards-view {
+  display: grid;
+  padding: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 6%;
+  row-gap: 2%;
+}
+
+.list-view {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 4px;
+}
+
+.shop-card {
+  border-radius: 4px;
+  text-align: center;
+  background-color: rgb(245,245,245);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.shop-card img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 18px;
+  text-transform: uppercase
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  color: red;
+  justify-content: space-between;
+  padding: 0 40px 40px;
+}
+
+.price-box button {
+  width: 40%;
+  height: 40px;
+  border-color: red;
+  border-radius: 20px;
+  color: red;
+}
+
+.shop-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(245,245,245);
+}
+
+.shop-item img {
+  width: 80px;
+}
+
+.shop-item .price-box {
+  width: 25%;
+}
